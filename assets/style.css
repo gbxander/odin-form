@@ -1,0 +1,234 @@
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+h1 {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #293f50;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h3, h4, h5, p {
+    margin-bottom: 22px;
+}
+
+
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+form {
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+    /* Box Model */
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0;
+}
+
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+.main-header {
+    /* Box-Model */
+    color: rgb(240, 240, 240);   
+}
+
+.main-header .logo {
+
+    /* Box Model */
+    display: inline-block;
+    padding: 10px;
+    border-top: 5px dashed #77a198;
+    margin: 0;
+
+    /* Typography */
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 100;
+
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+.nav-bar {
+    /* Typography */
+    text-align: right;
+}
+.nav-bar ul {
+    /* Box-model */
+    margin-right: 10px;
+    margin-top: 0;
+
+    /* Misc. */
+    list-style: none;
+}
+
+.nav-bar li {
+
+    /* Box-model */
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.nav-bar a {
+    /* Typography */
+    color: rgb(240, 240, 240);
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    /* Typography */
+    color: #faca2d;
+    text-decoration: underline;
+}
+
+/*
+  ========================================
+  Main Section
+  ========================================
+*/
+
+.main-section-wrapper {
+    /* Box-Model */
+    display: flex;
+
+    /* Typography */
+    align-items: stretch;
+}
+
+.main-section-pane {
+
+    /* Box-model */
+    width: 35%;
+
+    /* Visual */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    background: linear-gradient(to right, #77a198, transparent), url("./images/sail-chimp.jpeg");;
+}
+
+/*
+  ========================================
+  Form
+  ========================================
+*/
+
+.form-section {
+
+    /* Box-Model */
+    width: 65%;
+    padding: 25px;
+    height: 650px;
+
+    /* Visual */
+    background: #fff;
+}
+
+.form-wrapper {
+    /* Box-Model */
+    margin: 0 auto;
+    width: 700px;
+    padding: 20px 0;
+}
+
+.sign-up-group input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+
+    /* Box Model */
+    display: block;
+    margin: 5px 0 15px 0;
+    padding: 10px 5px;
+    width: 75%;
+}
+
+
+.sign-up-group label {
+
+    /* Typography */
+    font-weight: bold;
+    color: #648880;
+}
+
+.sign-up-group button {
+
+    /* Box Model*/
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 0;
+    width: 125px;
+    
+    /* Typography */
+    font-size: 16px;
+    color: #fff;
+
+    /* Visual */
+    background: #77a198;
+}
+
+.sign-up-group button:hover {
+
+    /* Visual */
+    background: #007c89;
+}
+
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.main-footer {
+    /* Box-model */
+    min-height: 100px;
+    padding: 25px;
+
+    /* Typography */
+    color: #fff;
+}
